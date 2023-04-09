@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(54, 99, 158);
+}
+.container{
+  background-color: #fff;
+  width: 600px;
+  padding: 30px 40px; 
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+}
+.container input{
+  width: 100%;
+}
+.container div{
+  cursor: pointer;
+  padding: 15px 25px;
+  font-size: 24px;
+  background-color: rgb(56, 167, 175);
+  border: 5px solid #fff;
+  color: #fff;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
